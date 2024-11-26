@@ -1,0 +1,45 @@
+/* CloudStorage.css */
+.storage-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.storage-option {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+  max-width: 300px;
+  padding: 24px;
+  text-align: center;
+}
+
+.storage-option h3 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.storage-option h4 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.storage-option p {
+  margin-bottom: 12px;
+}
+
+.btn-choose {
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.btn-choose:hover {
+  background-color: #0056b3;
+}

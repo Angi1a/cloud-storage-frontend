@@ -1,0 +1,102 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif; /* Modern and versatile font */
+  line-height: 1.6;
+  background-color: #f0f4f8; /* Softer background for less strain */
+}
+
+/* Admin Dashboard container */
+.admin-dashboard {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* More pronounced shadow for depth */
+}
+
+.admin-dashboard h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #324d67; /* Darker blue for contrast */
+  font-size: 2.25rem; /* Larger heading for emphasis */
+}
+
+/* Form container */
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Added gap for better spacing without affecting flex-basis */
+  margin-bottom: 2rem;
+}
+
+.form-container form {
+  flex-basis: calc(33.333% - 20px); /* Adjusting for gap */
+  background: linear-gradient(145deg, #6e85b7, #b8c0ff); /* Vibrant gradient */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Softer shadow for elegance */
+  color: #fff; /* Text color change for readability on dark background */
+}
+
+.form-container h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem; /* Bigger for clear section titles */
+}
+
+.form-container input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 2px solid #fff; /* Contrast border */
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2); /* Slightly see-through */
+  color: #fff; /* For input text */
+}
+
+.form-container button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #ff9671; /* Warm, inviting button color */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #ff6b6b; /* Darker shade on hover for interaction feedback */
+}
+
+/* Users list */
+.users-list {
+  background-color: #e8ecef; /* Lighter background for section differentiation */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Consistent shadow style */
+}
+
+.users-list h2 {
+  margin-bottom: 1.5rem;
+  color: #324d67; /* Consistent section title color */
+  font-size: 1.5rem;
+}
+
+.users-list ul {
+  list-style-type: none;
+}
+
+.users-list li {
+  margin-bottom: 0.75rem;
+  color: #324d67; /* Enhance readability */
+}

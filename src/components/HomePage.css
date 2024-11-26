@@ -1,0 +1,91 @@
+/* HomePage.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    background-color: #f0f2f5; /* Light grey background */
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #007bff;
+  }
+  
+  .heading {
+    font-size: 2rem; /* Adjust the size as needed */
+    color: white; /* White color for visibility against the nav background */
+    margin-left: 1rem; /* Spacing from the left edge */
+  }
+  
+  .header-content {
+    flex-grow: 1; /* Take up the remaining space */
+    background: url('./images/homepage.jpg') center / cover no-repeat; /* Full width background image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+    text-align: center; /* Center the text horizontally */
+    color: white; /* Adjust color for visibility against the image */
+    position: relative;
+  }
+  
+  .description {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for readability */
+    display: inline-block; /* Only as wide as the content */
+    margin: 0 auto; /* Centering the block */
+    padding: 1rem; /* Spacing inside the block */
+  }
+  
+  .auth-links {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  .btn {
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    background-color: #ffcc00; /* A contrasting color for the button */
+    color: #007bff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ffdd22;
+  }
+  
+  .footer-content {
+    padding: 1rem;
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+  }
+  .admin-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px; /* Adds some space between login and admin buttons */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-btn:hover {
+    background-color: #45a049;
+  }
+  

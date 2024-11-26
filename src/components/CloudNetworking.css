@@ -1,0 +1,39 @@
+.networking-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .networking-option {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    max-width: 350px;
+    padding: 24px;
+    text-align: center;
+  }
+  
+  .networking-option h3 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  
+  .networking-option p {
+    margin-bottom: 12px;
+  }
+  
+  .btn-choose {
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-choose:hover {
+    background-color: #1e7e34;
+  }
